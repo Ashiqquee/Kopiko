@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+    overflow-x:hidden;
+    overflow-y: scroll;
+}
+.head{
+    height:30px;
+    width: 100%;
+    color: #999999;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    font-size: 17px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.15;
+    letter-spacing: 6.5px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.description{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    color: #999999;
+    justify-content: center;
+    font-size: 8px;
+    margin-left: 1px;
+    margin-top: 5px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.15;
+    letter-spacing: 6.5px;
+}
+.menu{
+    height:50px ;
+    width: 659px;
+   font-size:7px;
+  font-family:  "Open Sans", sans-serif;
+    color: #999999;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 83px;
+    margin-left: 33Px;
+   align-items: center;
+   position: relative;
+   left: 382px;
+   border-top: 0.2px solid whitesmoke;
+   
+    
+}
+.firstimage{
+    margin-top: 20px;
+}
+.about1{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: #999999;
+    font-size: 12px;
+    margin-top:140px;
+}
+.about2{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: #999999;
+    font-size: 12px;
+    margin-top:-10px;
+
+}
+.about3{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: #999999;
+    font-size: 12px;
+    margin-top:40px;
+
+}
+.secondimage{
+    position: relative;
+    left: 310px;
+    top: 50px;
+}
+.logo{
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+}
+.last{
+height: 30px;
+width: 100%;
+display: flex;
+align-items:center;
+justify-content: center;
+color: #999999;
+font-size: 6px;
+margin-top:40px;
+}
+.hoov:hover{
+    color: orangered;
+    cursor:pointer;       
+}
